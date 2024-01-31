@@ -8,6 +8,7 @@ describe('homescreen tests', () => {
       it('should have welcome screen', async () => {
         await expect(element(by.id('title'))).toBeVisible();
         await expect(element(by.id('title'))).toHaveText('Hello there');
+        await expect(element(by.id('title'))).toHaveText('Hello there');
         
       });
     
